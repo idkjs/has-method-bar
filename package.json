@@ -1,0 +1,22 @@
+{
+  "name": "has-member-bar",
+  "version": "0.1.0",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^8.4.2"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "reason-promise": "^1.1.2",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
